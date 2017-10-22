@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 public enum InputDirection {
-    Left, Right, Up, Down
+    Left, Right, Up, Down, None
 }
 
 public interface InputDetector{
