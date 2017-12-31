@@ -64,7 +64,7 @@ public class PlayerController2 : MonoBehaviour
     }
     IEnumerator stopJump()
     {
-        yield return new WaitForSeconds(.25f);
+        yield return new WaitForSeconds(.50f);
         vertical = -5;
         StartCoroutine(stopSlide());
         controller.direction = InputDirection.None;
