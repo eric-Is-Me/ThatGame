@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 83b70eecd1faf034e8e31cdf0d6b88cc
+timeCreated: 1516238250
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Path: {fileID: 4014835636020820, guid: 7f96bfa58863e724587b4d49a763d9c5, type: 2}
+  - Pillar: {fileID: 4740732556682832, guid: 864ebaa2993b03c4c9da641318798042, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
