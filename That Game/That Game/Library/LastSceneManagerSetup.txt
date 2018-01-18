@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/Eric/Documents/Ball/Assets/scene/minigame.unity
+  isLoaded: 1
+  isActive: 1
