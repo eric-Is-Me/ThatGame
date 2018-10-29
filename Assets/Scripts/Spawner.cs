@@ -13,7 +13,11 @@ public class Spawner : MonoBehaviour {
 		Vector3 finalPos = pos + new Vector3 (0, 0, playerZ);
 		Instantiate (Path, finalPos, Quaternion.identity);
 
-        Vector3 randPos = new Vector3(Random.Range(-3.0f, 1.0f), 1, Random.Range(playerZ, playerZ + 9.0f));
-        Instantiate(Pillar, randPos, Quaternion.identity);
+        int i = 0;
+        while (i < 4){
+            Vector3 randPos = new Vector3(Random.Range(-3.0f, 1.0f), 1, Random.Range(playerZ, playerZ + 9.0f));
+            Instantiate(Pillar, randPos, Quaternion.identity);
+            i++;
+        }
     }
 }
